@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using MyProj_L00172691.DataAccess;
-using MyProj_L00172691.Models;
+using MyProj.DataAccess.DataAccess;
+using MyProj.Models.Models;
 
 namespace MyProj_L00172691.Pages.Books
 {

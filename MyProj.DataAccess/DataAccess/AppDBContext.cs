@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyProj_L00172691.Models;
+using MyProj.Models.Models;
 
-namespace MyProj_L00172691.DataAccess
+namespace MyProj.DataAccess.DataAccess
 {
     public class AppDBContext :DbContext
     {

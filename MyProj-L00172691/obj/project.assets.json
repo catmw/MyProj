@@ -1608,6 +1608,31 @@
             "rid": "win"
           }
         }
+      },
+      "MyProj.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
+          "MyProj.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyProj.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyProj.DataAccess.dll": {}
+        }
+      },
+      "MyProj.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyProj.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyProj.Models.dll": {}
+        }
       }
     }
   },
@@ -4724,13 +4749,24 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MyProj.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../MyProj.DataAccess/MyProj.DataAccess.csproj",
+      "msbuildProject": "../MyProj.DataAccess/MyProj.DataAccess.csproj"
+    },
+    "MyProj.Models/1.0.0": {
+      "type": "project",
+      "path": "../MyProj.Models/MyProj.Models.csproj",
+      "msbuildProject": "../MyProj.Models/MyProj.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
+      "MyProj.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4740,11 +4776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\MyProj-L00172691.csproj",
+      "projectUniqueName": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
       "projectName": "MyProj-L00172691",
-      "projectPath": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\MyProj-L00172691.csproj",
+      "projectPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
       "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\obj\\",
+      "outputPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\NuGetPackages"
@@ -4765,7 +4801,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

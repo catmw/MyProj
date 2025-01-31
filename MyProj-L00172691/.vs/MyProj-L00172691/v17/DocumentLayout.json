@@ -1,74 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\",
+  "WorkspaceRootPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\myproj-l00172691.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:myproj-l00172691.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\migrations\\20250125213346_loaddata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125213346_loaddata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\desktop\\myproj-l00172691\\migrations\\20250125213206_loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125213206_loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125213346_loaddata2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125213346_loaddata2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125213206_loaddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125213206_loaddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125211931_fix2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125211931_fix2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125211559_fix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125211559_fix.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125210621_ver3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125210621_ver3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125205208_start2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125205208_start2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj-l00172691\\migrations\\20250125204020_start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:migrations\\20250125204020_start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AEE63DB-B07B-40EE-9FED-069C858B7210}|..\\MyProj.Models\\MyProj.Models.csproj|c:\\users\\mainacc (password)\\documents\\github\\myproj\\myproj.models\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +68,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,216 +76,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T21:36:58.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250125213346_loadData2.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Migrations\\20250125213346_loadData2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250125213346_loadData2.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Migrations\\20250125213346_loadData2.cs",
-              "RelativeToolTip": "Migrations\\20250125213346_loadData2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T21:33:46.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250125213206_loadData.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Migrations\\20250125213206_loadData.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250125213206_loadData.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Migrations\\20250125213206_loadData.cs",
-              "RelativeToolTip": "Migrations\\20250125213206_loadData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T21:32:06.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Books\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T20:34:56.58Z",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:46:46.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Books\\Edit.cshtml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:34:38.62Z",
+              "WhenOpened": "2025-01-31T16:46:30.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml.cs",
               "RelativeToolTip": "Pages\\Books\\Delete.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:34:22.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Edit.cshtml",
-              "RelativeToolTip": "Pages\\Books\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T20:34:14.054Z",
+              "WhenOpened": "2025-01-31T16:46:11.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Delete.cshtml",
-              "RelativeToolTip": "Pages\\Books\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T20:34:07.164Z",
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:45:54.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Books\\Create.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA5AAAA",
+              "Title": "AppDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:33:39.571Z",
+              "WhenOpened": "2025-01-31T16:45:44.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Pages\\Books\\Create.cshtml",
-              "RelativeToolTip": "Pages\\Books\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T20:33:28.913Z",
+              "Title": "20250125213346_loadData2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125213346_loadData2.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125213346_loadData2.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125213346_loadData2.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125213346_loadData2.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:45:33.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "20250125213206_loadData.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125213206_loadData.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125213206_loadData.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125213206_loadData.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125213206_loadData.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:32:55.138Z",
+              "WhenOpened": "2025-01-31T16:45:19.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\DataAccess\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\DataAccess\\AppDBContext.cs",
-              "RelativeToolTip": "DataAccess\\AppDBContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBYAAAByAAAA",
+              "DocumentIndex": 8,
+              "Title": "20250125211931_fix2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125211931_fix2.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125211931_fix2.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125211931_fix2.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125211931_fix2.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:31:41.123Z",
+              "WhenOpened": "2025-01-31T16:45:11.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250125211559_fix.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125211559_fix.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125211559_fix.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125211559_fix.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125211559_fix.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:44:57.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250125210621_ver3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125210621_ver3.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125210621_ver3.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125210621_ver3.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125210621_ver3.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:44:42.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T20:30:58.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T20:30:49.441Z"
+              "Title": "20250125205208_start2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125205208_start2.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125205208_start2.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125205208_start2.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125205208_start2.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:44:29.981Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T20:30:29.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "20250125204020_start.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125204020_start.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250125204020_start.Designer.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\20250125204020_start.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250125204020_start.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:22:12.133Z"
+              "WhenOpened": "2025-01-31T16:43:22.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MyProj-L00172691",
-              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\MyProj-L00172691.csproj",
-              "RelativeDocumentMoniker": "MyProj-L00172691.csproj",
-              "ToolTip": "C:\\Users\\MainAcc (Password)\\Desktop\\MyProj-L00172691\\MyProj-L00172691.csproj",
-              "RelativeToolTip": "MyProj-L00172691.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-25T20:20:47.318Z"
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.Models\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
+              "RelativeToolTip": "..\\MyProj.Models\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:36:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeToolTip": "..\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:35:33.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:22:12.133Z",
+              "EditorCaption": ""
             }
           ]
         }

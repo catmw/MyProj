@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MyProj_L00172691.Models
+namespace MyProj.Models.Models
 {
     public class Book
     {

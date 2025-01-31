@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.1",
+          "MyProj.DataAccess": "1.0.0"
         },
         "runtime": {
           "MyProj-L00172691.dll": {}
@@ -1037,6 +1038,21 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "MyProj.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
+          "MyProj.Models": "1.0.0"
+        },
+        "runtime": {
+          "MyProj.DataAccess.dll": {}
+        }
+      },
+      "MyProj.Models/1.0.0": {
+        "runtime": {
+          "MyProj.Models.dll": {}
+        }
       }
     }
   },
@@ -1598,6 +1614,16 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "MyProj.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyProj.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
