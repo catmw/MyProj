@@ -1,0 +1,12 @@
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\bin\Debug\net8.0\MyProj.Models.deps.json
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\bin\Debug\net8.0\MyProj.Models.dll
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\bin\Debug\net8.0\MyProj.Models.pdb
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.AssemblyInfoInputs.cache
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.AssemblyInfo.cs
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.csproj.CoreCompileInputs.cache
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.sourcelink.json
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.dll
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\refint\MyProj.Models.dll
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.pdb
+C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\ref\MyProj.Models.dll
