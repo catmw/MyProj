@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jsQ81cdrIYp/aCyK08t0auct+Bj8arlS6B43kmdMmMI=",
+  "Hash": "RoDtaEkfpXPBOk+x/uH5yZKvYuGkaiXvNdQ7OVjImjU=",
   "Source": "MyProj-L00172691",
   "BasePath": "_content/MyProj-L00172691",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyProj-L00172691.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\css\\Mint.css",
+      "SourceId": "MyProj-L00172691",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\",
+      "BasePath": "_content/MyProj-L00172691",
+      "RelativePath": "css/Mint.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Mint.css"
     },
     {
       "Identity": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\css\\site.css",

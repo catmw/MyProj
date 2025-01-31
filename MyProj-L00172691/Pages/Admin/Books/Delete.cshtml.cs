@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
 using MyProj.Models.Models;
 
-namespace MyProj_L00172691.Pages.Books
+namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class DeleteModel : PageModel
     {

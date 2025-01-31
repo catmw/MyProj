@@ -3,31 +3,28 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
 using MyProj.Models.Models;
 
-namespace MyProj_L00172691.Pages.Books
+namespace MyProj_L00172691.Pages.Admin.Books
 {
-    public class EditModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly AppDBContext _dbContext;
-        public EditModel(AppDBContext dbContext)
+        public CreateModel(AppDBContext dbContext)
         {
             _dbContext = dbContext;
         }
-		[BindProperty]
-		public Book Book { get; set; }
-        public void OnGet(int id)
+        public Book Book { get; set; }
+        public void OnGet()
         {
-            Book = _dbContext.Books.Find(id);
         }
 
         public async Task<IActionResult> OnPost(Book Book)
         {
             if (ModelState.IsValid)
             {
-                _dbContext.Books.Update(Book);
+                await _dbContext.Books.AddAsync(Book);
                 await _dbContext.SaveChangesAsync();
             }
             return RedirectToPage("Index");
         }
-
     }
 }
