@@ -1,22 +1,23 @@
 
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
+using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
 
 namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDBContext _dbContext;
+        private readonly IBookRepo _bookRepo;
         public IEnumerable<Book> Books;
-        public IndexModel(AppDBContext dbContext)
+        public IndexModel(IBookRepo bookRepo)
         {
-            _dbContext = dbContext;
+            _bookRepo = bookRepo;
         }
 
         public void OnGet()
         {
-            Books = _dbContext.Books;
+            Books = _bookRepo.GetAll();
         }
     }
 }

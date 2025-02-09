@@ -1,6 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using MyProj.DataAccess.DataAccess;
+using MyProj.DataAccess.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(
 	builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+builder.Services.AddScoped<IBookRepo, BookRepo>();
 
 var app = builder.Build();
 

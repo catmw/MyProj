@@ -1,31 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
+using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
 
 namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class DeleteModel : PageModel
     {
-        private readonly AppDBContext _dbContext;
-        public DeleteModel(AppDBContext dbContext)
+        private readonly IBookRepo _bookRepo;
+        public DeleteModel(IBookRepo bookRepo)
         {
-            _dbContext = dbContext;
+            _bookRepo = bookRepo;
         }
 		[BindProperty]
 		public Book Book { get; set; }
         public void OnGet(int id)
         {
-            Book = _dbContext.Books.Find(id);
+            Book = _bookRepo.Get(id);
         }
 
-        public async Task<IActionResult> OnPost(int id)
+        public IActionResult OnPost(Book Book)
         {
-			var Book = _dbContext.Books.Find(id);
-			if (Book != null)
-			{
-				_dbContext.Books.Remove(Book);
-				await _dbContext.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                _bookRepo.Delete(Book);
+                _bookRepo.SaveAll();
             }
             return RedirectToPage("Index");
         }

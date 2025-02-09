@@ -4776,11 +4776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
+      "projectUniqueName": "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
       "projectName": "MyProj-L00172691",
-      "projectPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
+      "projectPath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
       "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\obj\\",
+      "outputPath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\NuGetPackages"
@@ -4802,8 +4802,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
+            "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
+              "projectPath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
             }
           }
         }

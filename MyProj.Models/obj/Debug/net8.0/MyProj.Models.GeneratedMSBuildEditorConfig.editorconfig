@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyProj.Models
-build_property.ProjectDir = C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.Models\
+build_property.ProjectDir = E:\GitHub\MyProj\MyProj.Models\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

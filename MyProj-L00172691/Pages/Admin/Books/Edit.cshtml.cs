@@ -1,30 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
+using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
 
 namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class EditModel : PageModel
     {
-        private readonly AppDBContext _dbContext;
-        public EditModel(AppDBContext dbContext)
+        private readonly IBookRepo _bookRepo;
+        public EditModel(IBookRepo bookRepo)
         {
-            _dbContext = dbContext;
+            _bookRepo = bookRepo;
         }
 		[BindProperty]
 		public Book Book { get; set; }
         public void OnGet(int id)
         {
-            Book = _dbContext.Books.Find(id);
+            Book = _bookRepo.Get(id);
         }
 
-        public async Task<IActionResult> OnPost(Book Book)
+        public IActionResult OnPost(Book Book)
         {
             if (ModelState.IsValid)
             {
-                _dbContext.Books.Update(Book);
-                await _dbContext.SaveChangesAsync();
+                _bookRepo.Update(Book);
+                _bookRepo.SaveAll();
             }
             return RedirectToPage("Index");
         }
