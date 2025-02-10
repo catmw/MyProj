@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B612456A-5C47-4C7C-8D00-C9FA6E91297E}|..\\Services\\Services.csproj|e:\\github\\myproj\\services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B612456A-5C47-4C7C-8D00-C9FA6E91297E}|..\\Services\\Services.csproj|e:\\github\\myproj\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\pages\\admin\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\admin\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|e:\\github\\myproj\\myproj-l00172691\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +39,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\repository\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|e:\\github\\myproj\\myproj.dataaccess\\myproj.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -83,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,7 +97,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\GitHub\\MyProj\\Services\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\Services\\UnitOfWork.cs",
+              "ToolTip": "E:\\GitHub\\MyProj\\Services\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\Services\\UnitOfWork.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvyEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:39:05.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\GitHub\\MyProj\\Services\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IUnitOfWork.cs",
+              "ToolTip": "E:\\GitHub\\MyProj\\Services\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\Services\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:36:22.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BookRepo.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\BookRepo.cs",
               "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\BookRepo.cs",
@@ -99,12 +131,11 @@
               "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\BookRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T23:18:02.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T23:18:02.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IBookRepo.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IBookRepo.cs",
               "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IBookRepo.cs",
@@ -112,25 +143,24 @@
               "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\IBookRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T23:16:34.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T23:16:34.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\Repository.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\Repository.cs",
               "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T23:13:50.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "IRepository.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IRepository.cs",
@@ -143,20 +173,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyProj.DataAccess",
+              "DocumentIndex": 11,
+              "Title": "MyProj.DataAccess.csproj",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
               "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
               "RelativeToolTip": "..\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-09T23:11:42.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T23:11:42.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -168,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Mint.css",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\css\\Mint.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Mint.css",
@@ -180,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -188,12 +217,11 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAqwC0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-31T16:58:39.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T16:58:39.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Index.cshtml",
@@ -205,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Edit.cshtml",
@@ -217,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Delete.cshtml",
@@ -229,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Create.cshtml",
@@ -241,59 +269,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Index.cshtml.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Admin\\Books\\Index.cshtml.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T16:46:46.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Edit.cshtml.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Admin\\Books\\Edit.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T16:46:30.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Delete.cshtml.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Delete.cshtml.cs",
               "RelativeToolTip": "Pages\\Admin\\Books\\Delete.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T16:46:11.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Admin\\Books\\Create.cshtml.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Admin\\Books\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\Admin\\Books\\Create.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T16:45:54.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AppDBContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Migrations\\AppDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
@@ -305,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
@@ -315,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
               "ToolTip": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\DataAccess\\AppDBContext.cs",
@@ -325,13 +353,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\GitHub\\MyProj\\MyProj-L00172691\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T20:22:12.133Z",
               "EditorCaption": ""

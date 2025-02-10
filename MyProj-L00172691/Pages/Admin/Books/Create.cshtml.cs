@@ -3,15 +3,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
+using Services;
 
 namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class CreateModel : PageModel
     {
-        private readonly IBookRepo _bookRepo;
-        public CreateModel(IBookRepo bookRepo)
+        private readonly IUnitOfWork _unitOfWork;
+        public CreateModel(IUnitOfWork unitOfWork)
         {
-            _bookRepo = bookRepo;
+            _unitOfWork = unitOfWork;
         }
         public Book Book { get; set; }
         public void OnGet()
@@ -22,8 +23,8 @@ namespace MyProj_L00172691.Pages.Admin.Books
         {
             if (ModelState.IsValid)
             {
-                _bookRepo.Add(Book);
-                _bookRepo.SaveAll();
+                _unitOfWork.BookRepo.Add(Book);
+                _unitOfWork.Save();
             }
             return RedirectToPage("Index");
         }

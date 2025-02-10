@@ -680,3 +680,5 @@ E:\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\refint\MyProj-L00172691.dll
 E:\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\MyProj-L00172691.pdb
 E:\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\MyProj-L00172691.genruntimeconfig.cache
 E:\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\ref\MyProj-L00172691.dll
+E:\GitHub\MyProj\MyProj-L00172691\bin\Debug\net8.0\Services.dll
+E:\GitHub\MyProj\MyProj-L00172691\bin\Debug\net8.0\Services.pdb

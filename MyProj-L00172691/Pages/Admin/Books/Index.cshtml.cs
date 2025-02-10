@@ -3,21 +3,22 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
+using Services;
 
 namespace MyProj_L00172691.Pages.Admin.Books
 {
     public class IndexModel : PageModel
     {
-        private readonly IBookRepo _bookRepo;
+        private readonly IUnitOfWork _unitOfWork;
         public IEnumerable<Book> Books;
-        public IndexModel(IBookRepo bookRepo)
+        public IndexModel(IUnitOfWork unitOfWork)
         {
-            _bookRepo = bookRepo;
+            _unitOfWork = unitOfWork;
         }
 
         public void OnGet()
         {
-            Books = _bookRepo.GetAll();
+            Books = _unitOfWork.BookRepo.GetAll();
         }
     }
 }
