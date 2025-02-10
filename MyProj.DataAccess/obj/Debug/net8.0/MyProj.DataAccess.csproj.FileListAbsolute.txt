@@ -16,3 +16,21 @@ C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.DataAccess\obj\Debug\
 C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.pdb
 C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.genruntimeconfig.cache
 C:\Users\MainAcc (Password)\Documents\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\ref\MyProj.DataAccess.dll
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.DataAccess.deps.json
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.DataAccess.runtimeconfig.json
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.DataAccess.dll
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.DataAccess.pdb
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.Models.dll
+E:\GitHub\MyProj\MyProj.DataAccess\bin\Debug\net8.0\MyProj.Models.pdb
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.csproj.AssemblyReference.cache
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.AssemblyInfoInputs.cache
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.AssemblyInfo.cs
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.csproj.CoreCompileInputs.cache
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.sourcelink.json
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.D.29788FC6.Up2Date
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.dll
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\refint\MyProj.DataAccess.dll
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.pdb
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\MyProj.DataAccess.genruntimeconfig.cache
+E:\GitHub\MyProj\MyProj.DataAccess\obj\Debug\net8.0\ref\MyProj.DataAccess.dll

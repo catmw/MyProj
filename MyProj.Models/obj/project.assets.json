@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
+      "projectUniqueName": "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
       "projectName": "MyProj.Models",
-      "projectPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
+      "projectPath": "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
       "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.Models\\obj\\",
+      "outputPath": "E:\\GitHub\\MyProj\\MyProj.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\NuGetPackages"

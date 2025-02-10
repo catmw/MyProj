@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I7whuarIkT2cLycGSA8M0OaMZY5kP9wn6De7ZQbFTxydbm8ooiYBM3YZQRMuPsa8H9XvfMTw1cOJDnGLJjBcYQ==",
+  "dgSpecHash": "qtHHNc7sWt2E17ijzcNFnyr1EIUidi8/S5DV4KTy0WN8b4bys4L8JcSrrGVPzhSG9KLj3dxXyht0etocM8YJEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
+  "projectFilePath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

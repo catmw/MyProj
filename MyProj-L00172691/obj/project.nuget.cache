@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4HSfgDAdtywXn7k+lF+mnfgAHsN/tk+1bQLmRWQ4YFJBnEhvEoA9LeO6YYpzYCuJUfXEgLyHXy3fMq/9PzvNag==",
+  "dgSpecHash": "mJ5eDEGtPaOMPFHzdJL7lvjG6Pbq2CKjjaubx3NBkYQ6MtOAWM2Md/kTXrB584IHLkk/WEtzlLwR5+P696+u2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MainAcc (Password)\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
+  "projectFilePath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

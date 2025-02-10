@@ -11,7 +11,8 @@
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.1",
-          "MyProj.DataAccess": "1.0.0"
+          "MyProj.DataAccess": "1.0.0",
+          "Services": "1.0.0"
         },
         "runtime": {
           "MyProj-L00172691.dll": {}
@@ -1053,6 +1054,14 @@
         "runtime": {
           "MyProj.Models.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "MyProj.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
       }
     }
   },
@@ -1621,6 +1630,11 @@
       "sha512": ""
     },
     "MyProj.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
