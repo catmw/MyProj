@@ -36,7 +36,20 @@ namespace MyProj.DataAccess.Repository
             return list.ToList();
         }
 
-        public void Update(T obj)
+		public IEnumerable<T> GetAll(string? includeProperties = null)
+		{
+			IQueryable<T> list = dbSet;
+			if (!string.IsNullOrEmpty(includeProperties))
+			{
+				foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+				{
+                    list = list.Include(includeProp);
+				}
+			}
+			return list.ToList();
+		}
+
+		public void Update(T obj)
         {
             dbSet.Update(obj);
         }

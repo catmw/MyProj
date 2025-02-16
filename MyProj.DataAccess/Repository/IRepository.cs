@@ -12,6 +12,7 @@ namespace MyProj.DataAccess.Repository
         void Update(T obj);
         void Delete(T obj);
         IEnumerable<T> GetAll();
-        T Get(int id);
+		IEnumerable<T> GetAll(string? includeProperties = null);
+		T Get(int id);
     }
 }

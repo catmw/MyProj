@@ -40,29 +40,48 @@ namespace MyProj_L00172691.Pages.Admin.Books
 				});
 		}
 
-        public IActionResult OnPost(Book Book)
-        {
+		public IActionResult OnPost()
+		{
+			if (!ModelState.IsValid)
+			{
+				return Page();
+			}
+
+			var existingBook = _unitOfWork.BookRepo.Get(Book.Id);
+			if (existingBook == null)
+			{
+				return NotFound();
+			}
+
 			string wwwRootFolder = _webHostEnvironment.WebRootPath;
 			var files = HttpContext.Request.Form.Files;
-			string new_filename = Guid.NewGuid().ToString();
 
-			var upload = Path.Combine(wwwRootFolder, @"Images\Books");
-
-			var extension = Path.GetExtension(files[0].FileName);
-			using (var fileStream = new FileStream(Path.Combine(upload, new_filename + extension), FileMode.Create))
+			if (files.Count > 0)
 			{
-				files[0].CopyTo(fileStream);
-			}
+				string new_filename = Guid.NewGuid().ToString();
+				var upload = Path.Combine(wwwRootFolder, @"Images\Books");
+				var extension = Path.GetExtension(files[0].FileName);
 
-			Book.ImageName = @"\Images\Books\" + new_filename + extension;
-			if (ModelState.IsValid)
-			{
-				_unitOfWork.BookRepo.Add(Book);
-				_unitOfWork.Save();
+				using (var fileStream = new FileStream(Path.Combine(upload, new_filename + extension), FileMode.Create))
+				{
+					files[0].CopyTo(fileStream);
+				}
+				Book.ImageName = @"\Images\Books\" + new_filename + extension;
 			}
+			else
+			{
+				Book.ImageName = existingBook.ImageName;
+			}
+			existingBook.Title = Book.Title;
+			existingBook.AuthorId = Book.AuthorId;
+			existingBook.GenreId = Book.GenreId;
+			existingBook.ImageName = Book.ImageName;
+
+			_unitOfWork.BookRepo.Update(existingBook);
+			_unitOfWork.Save();
 
 			return RedirectToPage("Index");
 		}
 
-    }
+	}
 }

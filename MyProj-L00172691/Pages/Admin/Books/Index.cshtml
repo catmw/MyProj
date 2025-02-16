@@ -29,8 +29,8 @@
 		{
 			<tr>
 				<td width="50%">@obj.Title</td>
-				<td width="50%">@obj.AuthorId</td>
-				<td width="50%">@obj.GenreId</td>
+				<td width="50%">@obj.Author?.Name</td>
+				<td width="50%">@obj.Genre?.Name</td>
 				<td>
 					<a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
 				</td>

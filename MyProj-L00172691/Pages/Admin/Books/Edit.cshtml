@@ -14,13 +14,13 @@
 			<input asp-for="@Model.Book.Title" class="form-control" />
 			<span asp-validation-for="@Model.Book.Title" class="text-danger"></span>
 
-			<label asp-for="@Model.Book.AuthorId"></label>
+			<label asp-for="@Model.Book.AuthorId">Author</label>
 			<select asp-for="@Model.Book.AuthorId" asp-items="@Model.AuthorList" class="form-select">
 				<option disabled selected="selected Author ---"></option>
 			</select>
 			<span asp-validation-for="@Model.Book.AuthorId" class="text-danger"></span>
 
-			<label asp-for="@Model.Book.GenreId"></label>
+			<label asp-for="@Model.Book.GenreId">Genre</label>
 			<select asp-for="@Model.Book.GenreId" asp-items="@Model.GenreList" class="form-select">
 				<option disabled selected="selected Genre ---"></option>
 			</select>

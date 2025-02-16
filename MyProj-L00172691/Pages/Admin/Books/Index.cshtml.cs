@@ -1,5 +1,6 @@
 
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
 using MyProj.Models.Models;
@@ -16,9 +17,10 @@ namespace MyProj_L00172691.Pages.Admin.Books
             _unitOfWork = unitOfWork;
         }
 
-        public void OnGet()
+		public void OnGet()
         {
-            Books = _unitOfWork.BookRepo.GetAll();
-        }
+			Books = _unitOfWork.BookRepo.GetAll(includeProperties: "Author,Genre");
+
+		}
     }
 }
