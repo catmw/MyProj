@@ -21,7 +21,7 @@ namespace MyProj_L00172691.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MyProj_L00172691.Models.Book", b =>
+            modelBuilder.Entity("MyProj.Models.Models.Author", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -29,12 +29,57 @@ namespace MyProj_L00172691.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Author")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Genre")
-                        .IsRequired()
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Hiro Arikawa"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Gabrielle Zevin"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Jane Austen"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Stephen King"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "George R. R. Martin"
+                        });
+                });
+
+            modelBuilder.Entity("MyProj.Models.Models.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
@@ -43,44 +88,74 @@ namespace MyProj_L00172691.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("GenreId");
+
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("MyProj.Models.Models.Genre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Genres");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Author = "Hiro Arikawa",
-                            Genre = "Contemporary",
-                            Title = "The Travelling Cat Chronicles"
+                            Name = "Fantasy"
                         },
                         new
                         {
                             Id = 2,
-                            Author = "Clair Keegan",
-                            Genre = "Historical",
-                            Title = "Small Things Like These"
+                            Name = "Sci-Fi"
                         },
                         new
                         {
                             Id = 3,
-                            Author = "Jason Rekulak",
-                            Genre = "Mystery",
-                            Title = "Hidden Pictures"
+                            Name = "Romance"
                         },
                         new
                         {
                             Id = 4,
-                            Author = "Peter Beagle",
-                            Genre = "Fantasy",
-                            Title = "The Story of Kao Yu"
+                            Name = "Contemporary"
                         },
                         new
                         {
                             Id = 5,
-                            Author = "Barbara Comyns",
-                            Genre = "Classics",
-                            Title = "Who Was Changed and Who Was Dead"
+                            Name = "Horror"
                         });
+                });
+
+            modelBuilder.Entity("MyProj.Models.Models.Book", b =>
+                {
+                    b.HasOne("MyProj.Models.Models.Author", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MyProj.Models.Models.Genre", "Genre")
+                        .WithMany()
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Genre");
                 });
 #pragma warning restore 612, 618
         }

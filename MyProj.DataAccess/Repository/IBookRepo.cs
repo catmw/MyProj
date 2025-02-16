@@ -10,5 +10,6 @@ namespace MyProj.DataAccess.Repository
     public interface IBookRepo : IRepository<Book>
     {
         void SaveAll();
+        public void Update(Book book);
     }
 }

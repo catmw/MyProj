@@ -20,6 +20,8 @@
 	<thead>
 		<tr>
 			<th>Book</th>
+			<th>Author</th>
+			<th>Genre</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -27,8 +29,8 @@
 		{
 			<tr>
 				<td width="50%">@obj.Title</td>
-				<td width="50%">@obj.Author</td>
-				<td width="50%">@obj.Genre</td>
+				<td width="50%">@obj.AuthorId</td>
+				<td width="50%">@obj.GenreId</td>
 				<td>
 					<a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
 				</td>

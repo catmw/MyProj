@@ -10,7 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(
-	builder.Configuration.GetConnectionString("DefaultConnection")));
+	builder.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("MyProj-L00172691")
+	));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

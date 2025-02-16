@@ -1,4 +1,5 @@
-﻿using MyProj.DataAccess.DataAccess;
+﻿using Microsoft.EntityFrameworkCore.Update.Internal;
+using MyProj.DataAccess.DataAccess;
 using MyProj.Models.Models;
 using System;
 using System.Collections.Generic;
@@ -20,5 +21,17 @@ namespace MyProj.DataAccess.Repository
         {
             _dbContext.SaveChanges();
         }
+
+        public void Update(Book book)
+        {
+			var prodFromDB = _dbContext.Books.
+			   FirstOrDefault(prodFromDB => prodFromDB.Id == book.Id);
+			prodFromDB.Title = book.Title;
+			prodFromDB.GenreId = book.GenreId;
+			if (book.ImageName != null)
+			{
+				prodFromDB.ImageName = book.ImageName;
+			}
+		}
     }
 }
