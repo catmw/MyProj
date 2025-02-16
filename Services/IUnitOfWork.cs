@@ -12,5 +12,9 @@ namespace Services
         IBookRepo BookRepo { get; }
 
         void Save();
+
+        IAuthorRepo AuthorRepo { get; }
+
+        IGenreRepo GenreRepo { get; }
     }
 }

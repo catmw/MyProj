@@ -10,19 +10,29 @@ namespace MyProj.DataAccess.DataAccess
 
         }
         public DbSet<Book> Books { get; set; }
+		public DbSet<Genre> Genres { get; set; }
+		public DbSet<Author> Authors { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			base.OnModelCreating(modelBuilder);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<Book>().HasData(
-				new Book { Id = 1, Title="The Travelling Cat Chronicles", Author="Hiro Arikawa", Genre="Contemporary" },
-				new Book { Id = 2, Title = "Small Things Like These", Author = "Clair Keegan", Genre = "Historical" },
-				new Book { Id = 3, Title = "Hidden Pictures", Author = "Jason Rekulak", Genre = "Mystery" },
-				new Book { Id = 4, Title = "The Story of Kao Yu", Author = "Peter Beagle", Genre = "Fantasy" },
-				new Book { Id = 5, Title = "Who Was Changed and Who Was Dead", Author = "Barbara Comyns", Genre = "Classics" }
-			);
-		}
-	}
+            modelBuilder.Entity<Genre>().HasData(
+                new Genre { Id = 1, Name = "Fantasy" },
+                new Genre { Id = 2, Name = "Sci-Fi" },
+                new Genre { Id = 3, Name = "Romance" },
+                new Genre { Id = 4, Name = "Contemporary" },
+                new Genre { Id = 5, Name = "Horror" }
+            );
+ 
+            modelBuilder.Entity<Author>().HasData(
+                new Author { Id = 1, Name = "Hiro Arikawa" },
+                new Author { Id = 2, Name = "Gabrielle Zevin" },
+                new Author { Id = 3, Name = "Jane Austen" },
+                new Author { Id = 4, Name = "Stephen King" },
+                new Author { Id = 5, Name = "George R. R. Martin" }
+            );
+        }
+    }
 
 }
