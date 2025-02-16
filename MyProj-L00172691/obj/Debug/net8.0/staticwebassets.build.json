@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R432tyCoKU/NXd/Ce1F2I3S17eZzqefUiMhcWksKLno=",
+  "Hash": "shDMZ397RyZfHX+r793oV/geh2hnNa2ZzQor4hV7tjQ=",
   "Source": "MyProj-L00172691",
   "BasePath": "_content/MyProj-L00172691",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\Books\\634ce0fb-8716-4305-b18e-b6a6d8450dca.jpg",
+      "SourceId": "MyProj-L00172691",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\",
+      "BasePath": "_content/MyProj-L00172691",
+      "RelativePath": "Images/Books/634ce0fb-8716-4305-b18e-b6a6d8450dca.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Books\\634ce0fb-8716-4305-b18e-b6a6d8450dca.jpg"
     },
     {
       "Identity": "E:\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\Books\\96b70e68-f098-4031-b818-9298beb7be73.jpg",

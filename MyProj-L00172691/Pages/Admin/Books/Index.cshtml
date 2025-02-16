@@ -6,7 +6,7 @@
 <div class="container p-3">
 	<div class="row pt-4">
 		<div class="col-6">
-			<h3 class="text-primary">Book</h3>
+			<h3 class="text-primary">Books</h3>
 		</div>
 		<div class="col-6">
 			<a asp-page="Create" class="btn btn-primary">
@@ -19,6 +19,7 @@
 <table class="table table-bordered table-striped">
 	<thead>
 		<tr>
+			<th> </th>
 			<th>Book</th>
 			<th>Author</th>
 			<th>Genre</th>
@@ -28,6 +29,16 @@
 		@foreach(var obj in Model.Books)
 		{
 			<tr>
+				<td width="30%">
+					@if (!string.IsNullOrEmpty(obj.ImageName))
+					{
+						<img src="@obj.ImageName" alt="Book Image" width="100" height="150" style="object-fit: cover;" />
+					}
+					else
+					{
+						<span>No Image</span>
+					}
+				</td>
 				<td width="50%">@obj.Title</td>
 				<td width="50%">@obj.Author?.Name</td>
 				<td width="50%">@obj.Genre?.Name</td>
