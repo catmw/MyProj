@@ -12,9 +12,9 @@ namespace MyProj_L00172691.Pages
 			_logger = logger;
 		}
 
-		public void OnGet()
+		public IActionResult OnGet()
 		{
-
+			return RedirectToPage("Customer/Home/index");
 		}
 	}
 }

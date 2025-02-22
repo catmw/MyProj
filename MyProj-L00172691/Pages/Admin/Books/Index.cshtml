@@ -23,6 +23,10 @@
 			<th>Book</th>
 			<th>Author</th>
 			<th>Genre</th>
+			<th>Description</th>
+			<th>Price</th>
+			<th></th>
+
 		</tr>
 	</thead>
 	<tbody>
@@ -42,6 +46,8 @@
 				<td width="50%">@obj.Title</td>
 				<td width="50%">@obj.Author?.Name</td>
 				<td width="50%">@obj.Genre?.Name</td>
+				<td width="50%">@obj.Description</td>
+				<td width="50%">@obj.Price</td>
 				<td>
 					<a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
 				</td>
