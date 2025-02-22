@@ -25,7 +25,7 @@
 				</select>
 
 			<label asp-for="@Model.Book.Price"></label>
-			<input asp-for="@Model.Book.Price" class="form-control" />
+			<input asp-for="@Model.Book.Price" class="form-control" type="number" min="0" step="0.01" />
 			<span asp-validation-for="@Model.Book.Price" class="text-danger"></span>
 
 
