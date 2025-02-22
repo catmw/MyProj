@@ -6,7 +6,7 @@
 	<p>
 		<form class="d-flex" class="col-3">
 			<input type="text" placeholder="Enter Book Name" class="form-control me-sm-2" asp-for="SearchString" />
-			<input type="submit" value="Search" class="btn btn-outline" class="form-control align-content-end" />
+            <input type="submit" value="Search" class="btn btn-outline-info" class="form-control align-content-end" />
 			<a asp-route-Products="" asp-route-SearchString="" class="btn btn-outline-secondary">Clear</a>
 		</form>
 	</p>
@@ -22,7 +22,7 @@
                     <div class="col-lg-4 col-md-6 pb-4 filter">
                         <div class="card bg-white rounded shadow-sm h-100" style="border:1px solid #222">
                             <div class="card-body pb-1 row">
-                                <div class="col-8 h5 text-truncate">@book.Title</div>
+                                <div class="col-8 h5  text-wrap text-break ">@book.Title</div>
                                 <div class="col-4 text-end"><span class="text-info h4">@book.Price</span></div>
                             </div>
 
