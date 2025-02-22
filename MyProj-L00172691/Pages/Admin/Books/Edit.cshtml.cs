@@ -76,6 +76,8 @@ namespace MyProj_L00172691.Pages.Admin.Books
 			existingBook.AuthorId = Book.AuthorId;
 			existingBook.GenreId = Book.GenreId;
 			existingBook.ImageName = Book.ImageName;
+			existingBook.Price = Book.Price;
+			existingBook.Description = Book.Description;
 
 			_unitOfWork.BookRepo.Update(existingBook);
 			_unitOfWork.Save();

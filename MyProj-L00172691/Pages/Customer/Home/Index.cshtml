@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+
+<div class="row container pb-3 backgroundWhite">
+
+	<p>
+		<form class="d-flex" class="col-3">
+			<input type="text" placeholder="Enter Book Name" class="form-control me-sm-2" asp-for="SearchString" />
+			<input type="submit" value="Search" class="btn btn-outline" class="form-control align-content-end" />
+			<a asp-route-Products="" asp-route-SearchString="" class="btn btn-outline-secondary">Clear</a>
+		</form>
+	</p>
+	</br></br></br>
+
+	@foreach (var genre in Model.listOfGenres)
+	{
+		<h2 class="text-success pl-1">@genre.Name</h2>
+		<div class="col-12">
+			<div class="row my-3">
+				@foreach (var book in Model.listOfBooks.Where(p => p.GenreId == genre.Id))
+				{
+					<div class="col-lg-4 col-md-6 pb-4 filter">
+						<div class="card bg-white rounded shadow-sm" style="border:1px solid #222">
+							<div class="card-body pb-1 row">
+								<div class="col-8 h5">@book.Title</div>
+								<div class="col-4 text-end"><span class="text-info h4">@book.Price</span></div>
+	
+							</div>
+							<img class="card-img-top img-fluid d-block mx-auto mb-3" src="@book.ImageName" alt="menuitem image">
+							<div class="card-body p-1 px-3 row">
+								<div class="col-6">
+									<span class="badge p-2 border w-100 text-dark bg-warning ">@book.Genre?.Name</span>
+								</div>
+								<div class="col-6 border-0">
+									<span class="badge p-2 border w-100 bg-info ">@book.Title</span>
+								</div>
+								<div class="col-12 pt-2" style="font-size:13px; text-align:justify">
+									<p> @book.Description</p>
+								</div>
+								<div class="col-12 p-1">
+									<a asp-page="Details" asp-route-id="@book.Id" class="btn btn-dark form-control btn-sm p-2" style="height:40px">View Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				}
+			</div>
+		</div>
+	}
+
+</div>	

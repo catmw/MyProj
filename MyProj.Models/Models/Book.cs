@@ -12,6 +12,10 @@ namespace MyProj.Models.Models
 
         public string? ImageName { get; set; }
 
+        public double? Price { get; set; }
+
+        public string? Description { get; set; }
+
 		public int GenreId { get; set; }
 		public Genre? Genre { get; set; }
 
