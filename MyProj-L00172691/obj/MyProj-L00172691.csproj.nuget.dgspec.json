@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj": {}
+    "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj": {
+    "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
+        "projectUniqueName": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
         "projectName": "MyProj-L00172691",
-        "projectPath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
-        "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\MyProj\\MyProj-L00172691\\obj\\",
+        "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\MyProj-L00172691.csproj",
+        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MainAcc (Password)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
-                "projectPath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
+              "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
               },
-              "E:\\GitHub\\MyProj\\Services\\Services.csproj": {
-                "projectPath": "E:\\GitHub\\MyProj\\Services\\Services.csproj"
+              "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\Services.csproj"
               }
             }
           }
@@ -51,12 +50,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.1, )"
@@ -91,24 +95,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
+    "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
         "projectName": "MyProj.DataAccess",
-        "projectPath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MainAcc (Password)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,15 +121,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj": {
-                "projectPath": "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj"
+              "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj": {
+                "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj"
               }
             }
           }
@@ -139,12 +142,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.1, )"
@@ -182,24 +190,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj": {
+    "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
+        "projectUniqueName": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
         "projectName": "MyProj.Models",
-        "projectPath": "E:\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
-        "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\MyProj\\MyProj.Models\\obj\\",
+        "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\MyProj.Models.csproj",
+        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MainAcc (Password)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -208,7 +216,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -226,7 +233,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -247,24 +255,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GitHub\\MyProj\\Services\\Services.csproj": {
+    "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\MyProj\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "E:\\GitHub\\MyProj\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\MainAcc (Password)\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\MyProj\\Services\\obj\\",
+        "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MainAcc (Password)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -273,15 +281,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
-                "projectPath": "E:\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
+              "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\MyProj.DataAccess.csproj"
               }
             }
           }
@@ -295,7 +302,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -316,7 +324,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

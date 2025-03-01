@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MyProj.Models.Models;
 
 namespace MyProj.DataAccess.DataAccess
 {
-    public class AppDBContext :DbContext
+    public class AppDBContext :IdentityDbContext
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) 
         {
