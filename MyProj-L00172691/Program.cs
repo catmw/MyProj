@@ -1,18 +1,23 @@
 using System;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
 using Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(
-	builder.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("MyProj-L00172691")
-	));
-
+//builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(
+//builder.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("MyProj-L00172691")
+//));
+builder.Services.AddDbContext<AppDBContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
@@ -29,6 +34,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 
