@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
 using Services;
@@ -20,6 +21,12 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+	options.LoginPath = "/Login";
+	options.AccessDeniedPath = "/AccessDenied";
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,6 +41,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+await app.CreateRolesAsync(builder.Configuration);
 app.UseAuthentication();
 
 app.UseAuthorization();
@@ -41,3 +49,20 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+public static class WebApplicationExtensions
+{
+	public static async Task<WebApplication> CreateRolesAsync(this WebApplication app, IConfiguration configuration)
+	{
+		using var scope = app.Services.CreateScope();
+		var roleManager = (RoleManager<IdentityRole>)scope.ServiceProvider.GetService(typeof(RoleManager<IdentityRole>));
+		var roles = configuration.GetSection("Roles").Get<List<string>>();
+
+		foreach(var role in roles)
+		{
+			if (!await roleManager.RoleExistsAsync(role))
+				await roleManager.CreateAsync(new IdentityRole(role));
+		}
+		return app;
+	}
+}
