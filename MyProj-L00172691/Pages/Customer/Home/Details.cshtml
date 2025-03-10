@@ -5,15 +5,18 @@
 <div class="">
     <form method="post">
 
+        <input asp-for="ShoppingCart.BookId" hidden/>
+        <input asp-for="ShoppingCart.ApplicationUserID" hidden />
+
         <div class="container backgroundWhite">
             <div class="card">
                 <div class="card-header">
                     <div class="text-light ml-0 row ">
                         <div class="col-12 col-md-6 pt-2">
-                            <h1 class="text-primary">@Model.Book.Title</h1>
+                            <h1 class="text-primary">@Model.ShoppingCart.Book.Title</h1>
                         </div>
                         <div class="col-12 col-md-6 text-end pt-2">
-                            <h1 class="text-muted">@Model.Book.Price</h1>
+                            <h1 class="text-muted">@Model.ShoppingCart.Book.Price</h1>
                         </div>
                     </div>
                 </div>
@@ -26,11 +29,12 @@
                                     <div class="col-12">
                                         <h3 class="text-success"></h3>
 
-                                        <p class="text-secondary">@Model.Book.Description</p>
+                                        <p class="text-secondary">@Model.ShoppingCart.Book.Description</p>
                                         <p class="text-secondary">Genre Name</p>
                                         <div class="form-floating my-2">
-                                            <input class="form-control" aria-required="true" />
-                                            <label>Quantity</label>
+                                            <label asp-for="@Model.ShoppingCart.Quantity"></label>
+                                            <input asp-for="@Model.ShoppingCart.Quantity" class="form-control" />
+                                            <span asp-validation-for="@Model.ShoppingCart.Quantity" class="text-danger"></span>
                                         </div>
 
                                     </div>
@@ -38,7 +42,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4 p-1 text-center">
-                                <img src="@Model.Book.ImageName" width="100%" class="rounded" />
+                                <img src="@Model.ShoppingCart.Book.ImageName" width="100%" class="rounded" />
                             </div>
 
 
@@ -51,7 +55,7 @@
                             <a asp-page="Index" class="btn btn-success btn-square form-control" style="height:50px;">Back to List</a>
                         </div>
                         <div class="col-12 col-md-6 ">
-                            <a asp-page="Order" button type="submit" class="btn btn-primary btn-square form-control" style="height:50px;">Add to Order</a>
+                            <button type="submit" class="btn btn-primary btn-square form-control" style="height:50px;">Add to Cart</button>
                         </div>
                     </div>
                 </div>

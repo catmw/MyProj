@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Update.Internal;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 using MyProj.DataAccess.DataAccess;
 using MyProj.Models.Models;
 using System;
@@ -15,6 +16,12 @@ namespace MyProj.DataAccess.Repository
         public BookRepo(AppDBContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        Book IBookRepo.GetProductCategory(int id)
+        {
+            var book = _dbContext.Books.Include(c=>c.Genre).FirstOrDefault(b => b.Id == id);
+            return book;
         }
 
         public void SaveAll()

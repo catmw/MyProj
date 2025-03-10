@@ -1046,3 +1046,7 @@ C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj-L001726
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\MyProj-L00172691.pdb
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\MyProj-L00172691.genruntimeconfig.cache
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\ref\MyProj-L00172691.dll
+C:\Users\edgar\Documents\GitHub\MyProj\MyProj-L00172691\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\edgar\Documents\GitHub\MyProj\MyProj-L00172691\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\edgar\Documents\GitHub\MyProj\MyProj-L00172691\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\edgar\Documents\GitHub\MyProj\MyProj-L00172691\obj\Debug\net8.0\MyProj-L00172691.MvcApplicationPartsAssemblyInfo.cs

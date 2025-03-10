@@ -46,3 +46,4 @@ C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj.Models\
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\refint\MyProj.Models.dll
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.pdb
 C:\Users\L00172691\OneDrive - Atlantic TU\Semester6\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\ref\MyProj.Models.dll
+C:\Users\edgar\Documents\GitHub\MyProj\MyProj.Models\obj\Debug\net8.0\MyProj.Models.csproj.AssemblyReference.cache

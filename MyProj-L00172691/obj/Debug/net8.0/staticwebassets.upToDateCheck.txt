@@ -1,10 +1,14 @@
 wwwroot\css\Mint.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\Books\1013eb10-523b-4cb5-b235-15452c977437.jpg
 wwwroot\Images\Books\41428e48-88f2-4524-b70f-eebfc4e1dde5.jpg
 wwwroot\Images\Books\634ce0fb-8716-4305-b18e-b6a6d8450dca.jpg
+wwwroot\Images\Books\72dfa61e-a223-40c0-8fe9-0dc926a37ca4.jpg
 wwwroot\Images\Books\96b70e68-f098-4031-b818-9298beb7be73.jpg
 wwwroot\Images\Books\b124f231-5dc0-4636-8c6c-50bfe8a82f5d.jpg
+wwwroot\Images\Books\e6758e32-47be-4c45-91bc-914d69b9240a.jpg
+wwwroot\Images\Books\e7741c31-a131-42ad-98f8-9ee6da1b72e7.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
