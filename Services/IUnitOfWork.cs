@@ -16,5 +16,9 @@ namespace Services
         IAuthorRepo AuthorRepo { get; }
 
         IGenreRepo GenreRepo { get; }
+        IOrderRepo OrderRepo { get; }
+        IOrderItemRepo OrderItemRepo { get; }
+        IApplicationUserRepo ApplicationUserRepo { get; }
+        IShoppingCartRepo ShoppingCartRepo { get; }
     }
 }

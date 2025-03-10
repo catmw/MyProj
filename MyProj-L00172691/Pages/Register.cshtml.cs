@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MyProj.Models.Models;
 using MyProj_L00172691.Pages.PageViewModels;
 
 namespace MyProj_L00172691.Pages
@@ -9,27 +10,30 @@ namespace MyProj_L00172691.Pages
     public class RegisterModel : PageModel
     {
 
-            private readonly UserManager<IdentityUser> _userManager;
-            private readonly SignInManager<IdentityUser> _signInManager;
-            public Register Register { get; set; }
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public Register Register { get; set; }
+        public ApplicationUser ApplicationUser { get; set; }
+        public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+        }
 
-            public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
-            {
-                _userManager = userManager;
-                _signInManager = signInManager;
-            }
-
-            public void OnGet()
-            {
-            }
+        public void OnGet()
+        {
+        }
 
             public async Task<IActionResult> OnPost()
             {
                 if (ModelState.IsValid)
                 {
 
-                    var user = new IdentityUser()
+                    var user = new ApplicationUser()
                     {
+                        FirstName = Register.FirstName,
+                        LastName = Register.LastName,
+                        PhoneNumber = Register.PhoneNumber,
                         UserName = Register.EmailAddress,
                         Email = Register.EmailAddress
                     };

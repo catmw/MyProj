@@ -11,19 +11,34 @@
             </h2>
         </div>
         <div class="mb-3">
-            <label asp-for="Register.EmailAddress"></label>
-            <input asp-for="Register.EmailAddress" class="form-control" />
-            <span asp-validation-for="Register.EmailAddress" class="text-danger"></span>
+            <label asp-for="@Model.Register.FirstName"></label>
+            <input asp-for="@Model.Register.FirstName" class="form-control" />
+            <span asp-validation-for="@Model.Register.FirstName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="Register.Password"></label>
-            <input asp-for="Register.Password" class="form-control" />
-            <span asp-validation-for="Register.Password" class="text-danger"></span>
+            <label asp-for="@Model.Register.LastName"></label>
+            <input asp-for="@Model.Register.LastName" class="form-control" />
+            <span asp-validation-for="@Model.Register.LastName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="Register.ConfirmPassword"></label>
-            <input asp-for="Register.ConfirmPassword" class="form-control" />
-            <span asp-validation-for="Register.ConfirmPassword" class="text-danger"></span>
+            <label asp-for="@Model.Register.PhoneNumber"></label>
+            <input asp-for="@Model.Register.PhoneNumber" class="form-control" />
+            <span asp-validation-for="@Model.Register.PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="@Model.Register.EmailAddress"></label>
+            <input asp-for="@Model.Register.EmailAddress" class="form-control" />
+            <span asp-validation-for="@Model.Register.EmailAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="@Model.Register.Password"></label>
+            <input asp-for="@Model.Register.Password" class="form-control" />
+            <span asp-validation-for="@Model.Register.Password" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="@Model.Register.ConfirmPassword"></label>
+            <input asp-for="@Model.Register.ConfirmPassword" class="form-control" />
+            <span asp-validation-for="@Model.Register.ConfirmPassword" class="text-danger"></span>
         </div>
 
         <button type="submit" class="btn btn-primary">Register</button>

@@ -11,5 +11,6 @@ namespace MyProj.DataAccess.Repository
     {
         void SaveAll();
         public void Update(Book book);
+        Book GetProductCategory(int id);
     }
 }

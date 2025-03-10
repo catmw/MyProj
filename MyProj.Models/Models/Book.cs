@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyProj.Models.Models
@@ -17,7 +18,9 @@ namespace MyProj.Models.Models
         public string? Description { get; set; }
 
 		public int GenreId { get; set; }
-		public Genre? Genre { get; set; }
+        [ForeignKey("GenreId")]
+        [ValidateNever]
+        public Genre? Genre { get; set; }
 
 
 		public int AuthorId { get; set; }
