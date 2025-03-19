@@ -293,7 +293,7 @@ namespace MyProj.DataAccess.Migrations
                     b.Property<string>("ImageName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("Price")
+                    b.Property<double>("Price")
                         .HasColumnType("float");
 
                     b.Property<string>("Title")

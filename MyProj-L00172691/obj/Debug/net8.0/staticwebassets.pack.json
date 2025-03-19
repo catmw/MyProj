@@ -37,6 +37,22 @@
       "PackagePath": "staticwebassets\\Images\\Books\\e7741c31-a131-42ad-98f8-9ee6da1b72e7.jpg"
     },
     {
+      "Id": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\bag-plus.svg",
+      "PackagePath": "staticwebassets\\Images\\bag-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\cart-70-32.png",
+      "PackagePath": "staticwebassets\\Images\\cart-70-32.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\dash-circle.svg",
+      "PackagePath": "staticwebassets\\Images\\dash-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\Images\\trash.svg",
+      "PackagePath": "staticwebassets\\Images\\trash.svg"
+    },
+    {
       "Id": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\wwwroot\\css\\Mint.css",
       "PackagePath": "staticwebassets\\css\\Mint.css"
     },

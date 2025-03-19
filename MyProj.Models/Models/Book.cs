@@ -13,7 +13,7 @@ namespace MyProj.Models.Models
 
         public string? ImageName { get; set; }
 
-        public double? Price { get; set; }
+        public double Price { get; set; }
 
         public string? Description { get; set; }
 
