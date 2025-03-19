@@ -12,5 +12,8 @@ namespace MyProj.DataAccess.Repository
         ShoppingCart IncrementItem(string userid, int id);
         int IncrementQty(ShoppingCart shoppingCart, int qty);
         void Add(ShoppingCart shoppingCart);
+        IEnumerable<ShoppingCart> GetShoppingCartProducts(string userid);
+        void RemoveAll(IEnumerable<ShoppingCart> items);
+        int DecrementQty(ShoppingCart shoppingCart, int qty);
     }
 }

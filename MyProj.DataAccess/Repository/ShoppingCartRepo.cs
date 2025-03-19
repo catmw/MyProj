@@ -1,4 +1,5 @@
-﻿using MyProj.DataAccess.DataAccess;
+﻿using Microsoft.EntityFrameworkCore;
+using MyProj.DataAccess.DataAccess;
 using MyProj.Models.Models;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,13 @@ namespace MyProj.DataAccess.Repository
             _dbcontext.SaveChanges();
         }
 
+        public int DecrementQty(ShoppingCart shoppingCart, int qty)
+        {
+            shoppingCart.Quantity -= qty;
+            _dbcontext.SaveChanges();
+            return shoppingCart.Quantity;
+        }
+
         public void Delete(ShoppingCart obj)
         {
             throw new NotImplementedException();
@@ -43,6 +51,12 @@ namespace MyProj.DataAccess.Repository
             throw new NotImplementedException();
         }
 
+        public IEnumerable<ShoppingCart> GetShoppingCartProducts(string userid)
+        {
+            var ShoppingCartItem = _dbcontext.ShoppingCart.Where(u => u.ApplicationUserID == userid).Include(p => p.Book).ThenInclude(c => c.Genre);
+            return ShoppingCartItem;
+        }
+
         public ShoppingCart IncrementItem(string userid, int id)
         {
             var shoppingCartItem = _dbcontext.ShoppingCart.Where(p=>p.BookId == id && p.ApplicationUserID == userid).FirstOrDefault();
@@ -54,6 +68,12 @@ namespace MyProj.DataAccess.Repository
             shoppingCart.Quantity += qty;
             _dbcontext.SaveChanges();
             return shoppingCart.Quantity;
+        }
+
+        public void RemoveAll(IEnumerable<ShoppingCart> items)
+        {
+            _dbcontext.RemoveRange(items);
+            _dbcontext.SaveChanges();
         }
 
         public void Update(ShoppingCart obj)
