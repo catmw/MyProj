@@ -1,4 +1,5 @@
 ﻿using MyProj.DataAccess.DataAccess;
+using MyProj.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace MyProj.DataAccess.Repository
         public OrderItemRepo(AppDBContext context)
         {
             _dbcontext = context;
+        }
+        public void Add(OrderItem orderItem)
+        {
+            _dbcontext.OrderItems.Add(orderItem);
+            _dbcontext.SaveChanges();
         }
     }
 }
