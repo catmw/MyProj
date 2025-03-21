@@ -3,40 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\customer\\cart\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\customer\\cart\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.OrderItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\customer\\cart\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\customer\\cart\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AEE63DB-B07B-40EE-9FED-069C858B7210}|..\\MyProj.Models\\MyProj.Models.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\iorderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AEE63DB-B07B-40EE-9FED-069C858B7210}|..\\MyProj.Models\\MyProj.Models.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.models\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Migrations\\20250319194532_week8p1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AEE63DB-B07B-40EE-9FED-069C858B7210}|..\\MyProj.Models\\MyProj.Models.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.models\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\customer\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\customer\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\ishoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\customer\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\customer\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6CBEE81-44EF-4F96-8202-258D65198C38}|..\\MyProj.DataAccess\\MyProj.DataAccess.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|c:\\users\\edgar\\documents\\github\\myproj\\myproj-l00172691\\pages\\customer\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CBB7755-A640-446F-BCD5-9CEECE2AC001}|MyProj-L00172691.csproj|solutionrelative:pages\\customer\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,135 +54,151 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.AspNetUserRoles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetUserRoles.sql",
-              "ToolTip": "dbo.AspNetUserRoles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-19T20:03:56.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-19T20:03:54.357Z",
+              "Title": "OrderPlaced.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\OrderPlaced.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customer\\Cart\\OrderPlaced.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\OrderPlaced.cshtml",
+              "RelativeToolTip": "Pages\\Customer\\Cart\\OrderPlaced.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T20:37:45.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.AspNetRoles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.AspNetRoles.sql",
-              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Title": "dbo.OrderItems [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.OrderItems.sql",
+              "ToolTip": "dbo.OrderItems [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-19T20:03:51.236Z",
+              "WhenOpened": "2025-03-21T20:35:02.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Orders [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyProjDB/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "dbo.Orders [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-21T20:34:59.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20250319194532_week8p1.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Migrations\\20250319194532_week8p1.cs",
-              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Migrations\\20250319194532_week8p1.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Migrations\\20250319194532_week8p1.cs",
-              "RelativeToolTip": "..\\MyProj.DataAccess\\Migrations\\20250319194532_week8p1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\OrderItemRepo.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\OrderItemRepo.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\OrderItemRepo.cs",
+              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\OrderItemRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:45:33.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "..\\MyProj.Models\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
-              "RelativeToolTip": "..\\MyProj.Models\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:29:29.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T19:22:11.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShoppingCartRepo.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\ShoppingCartRepo.cs",
-              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\ShoppingCartRepo.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\ShoppingCartRepo.cs",
-              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\ShoppingCartRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:17:57.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IShoppingCartRepo.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IShoppingCartRepo.cs",
-              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IShoppingCartRepo.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IShoppingCartRepo.cs",
-              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\IShoppingCartRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:17:03.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IRepository.cs",
-              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:16:48.062Z",
+              "WhenOpened": "2025-03-21T20:30:48.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Customer\\Cart\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Customer\\Cart\\Index.cshtml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACsAAAA6AAAAAAAAAA==",
+              "Title": "IOrderItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IOrderItemRepo.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IOrderItemRepo.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IOrderItemRepo.cs",
+              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\IOrderItemRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:10:35.187Z",
+              "WhenOpened": "2025-03-21T20:30:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.Models\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\OrderItem.cs",
+              "RelativeToolTip": "..\\MyProj.Models\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:06:26.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.Models\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Order.cs",
+              "RelativeToolTip": "..\\MyProj.Models\\Models\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:06:20.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Customer\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Customer\\Cart\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAFEAAAAKAAAAAAAAAA==",
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.Models\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.Models\\Models\\Book.cs",
+              "RelativeToolTip": "..\\MyProj.Models\\Models\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:06:09.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Summary.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Summary.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customer\\Cart\\Summary.cshtml.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Summary.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customer\\Cart\\Summary.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:02:08.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\IOrderRepo.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\IOrderRepo.cs",
+              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:31:01.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "..\\MyProj.DataAccess\\Repository\\OrderRepo.cs",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj.DataAccess\\Repository\\OrderRepo.cs",
+              "RelativeToolTip": "..\\MyProj.DataAccess\\Repository\\OrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:31:30.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customer\\Cart\\Summary.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Documents\\GitHub\\MyProj\\MyProj-L00172691\\Pages\\Customer\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "Pages\\Customer\\Cart\\Summary.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwIcAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T19:08:33.689Z",
+              "WhenOpened": "2025-03-21T19:58:29.952Z",
               "EditorCaption": ""
             }
           ]

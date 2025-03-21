@@ -22,7 +22,7 @@ namespace MyProj.Models.Models
         public string? CustomerName { get; set; }
         [Required]
         public string? PhoneNumber { get; set; }
-        public float TotalAmtDue { get; set; }
+        public double TotalAmtDue { get; set; }
         public List<OrderItem>? OrderDetails { get; set; }
     }
 }
