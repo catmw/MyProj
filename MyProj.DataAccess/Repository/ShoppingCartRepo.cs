@@ -33,17 +33,18 @@ namespace MyProj.DataAccess.Repository
 
         public void Delete(ShoppingCart obj)
         {
-            throw new NotImplementedException();
+            _dbcontext.ShoppingCart.Remove(obj);
+            _dbcontext.SaveChanges();
         }
 
         public ShoppingCart Get(int id)
         {
-            throw new NotImplementedException();
+            return _dbcontext.ShoppingCart.Include(s => s.Book).FirstOrDefault(s => s.Id == id);
         }
 
         public IEnumerable<ShoppingCart> GetAll()
         {
-            throw new NotImplementedException();
+            return _dbcontext.ShoppingCart.Include(s => s.Book).ToList();
         }
 
         public IEnumerable<ShoppingCart> GetAll(string? includeProperties = null)
@@ -78,7 +79,8 @@ namespace MyProj.DataAccess.Repository
 
         public void Update(ShoppingCart obj)
         {
-            throw new NotImplementedException();
+            _dbcontext.ShoppingCart.Update(obj);
+            _dbcontext.SaveChanges();
         }
     }
 }
