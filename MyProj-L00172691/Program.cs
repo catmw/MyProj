@@ -4,7 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using MyProj.DataAccess.DataAccess;
 using MyProj.DataAccess.Repository;
+using MyProj_L00172691.Pages.PageViewModels;
 using Services;
+using Stripe;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 );
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -41,6 +44,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+string key = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+StripeConfiguration.ApiKey = key;
 await app.CreateRolesAsync(builder.Configuration);
 app.UseAuthentication();
 
